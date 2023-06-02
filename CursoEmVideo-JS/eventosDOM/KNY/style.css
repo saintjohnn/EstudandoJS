@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(253, 217, 173);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header, section {
+  text-align: center;
+}
+
+header > h1 {
+  padding: 10px;
+}
+
+.main {
+  background-color: bisque;
+  border: 1px solid black;
+  margin-top: 30px;
+  box-shadow: 3px 3px 3px black;
+  min-width: 400px;
+
+}
+
+div > h1 {
+  padding: 10px;
+}
+
+div > section > nav {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+section {
+  display: flex;
+}
+
+section > nav > a {
+  text-decoration: none;
+  color: black;
+} 
+
+section > nav > .water:hover {
+  text-decoration: underline;
+  color: rgb(81, 81, 255);  
+} 
+
+section > nav > .bug:hover {
+  text-decoration: underline;
+  color: brown; 
+
+} 
+
+section > nav > .flame:hover {
+  text-decoration: underline;
+  color: rgb(255, 102, 0);
+} 
+
+section > nav > .love:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+section > nav > .snake:hover {
+  text-decoration: underline;
+  color: rgb(67, 117, 67);
+}
+
+
+section > nav > .wind:hover {
+  text-decoration: underline;
+  color: rgb(139, 139, 139);
+}
+
+section > nav > .stone:hover {
+  text-decoration: underline;
+  color: saddlebrown;
+}
+
+section > nav > .sound:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+section > nav > .mist:hover {
+  text-decoration: underline;
+  color: rgb(125, 219, 188);
+}
+
+
+section > nav > .water::after {
+  content: '\00A0\1F30A';
+}
+
+section > nav > .bug::after {
+  content: '\00A0\1F98B';
+}
+
+section > nav > .flame::after {
+  content: '\00A0\1F525';
+}
+
+section > nav > .love::after {
+  content: '\00A0\❤️';
+}
+
+section > nav > .snake::after {
+  content: '\00A0\1F40D';
+}
+
+
+section > nav > .wind::after {
+  content: '\00A0\🌪️';
+}
+
+section > nav > .stone::after {
+  content: '\00A0\⛰️';
+}
+
+section > nav > .sound::after {
+  content: '\00A0\1F3B6';
+}
+
+section > nav > .mist::after {
+  content: '\00A0\🌫️';
+}
+
+.main > div > section .sword {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  
+}
+
+.main > div > section .sword > img {
+  width: 300px;
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
